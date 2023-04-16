@@ -1,4 +1,4 @@
-# chatbot:
+# Chatbot:
 It is the basic chatbot using deep learning with 3 layers. User can change the backgroud color also lol :)
 Input data is in the form of json
 Preprocessing steps such as Tokenizing, Lemmatizing etc is done to the data present in the json file
