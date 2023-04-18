@@ -178,7 +178,7 @@ app.static_folder = 'static'
 def home():
     return render_template("index.html")
 
-@app.route("/get")
+@app.route('/get_bot_response()',methods=['POST'])
 def get_bot_response():
     userText = request.args.get('msg')
     return chatbot_response(userText)
